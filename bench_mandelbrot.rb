@@ -60,8 +60,10 @@ end
   mandelbrot(25)
 }
 
+ary = []
 20.times {
   t = Time.now
-  puts mandelbrot(2000)
+  ary << mandelbrot(1000)
   puts Time.now - t
 }
+p ary

@@ -354,7 +354,7 @@ def rbt_bm
   return Time.now - start
 end
 
-N = (ARGV[0] || 10).to_i
+N = (ARGV[0] || 20).to_i
 
 N.times do
   puts rbt_bm.to_f
