@@ -56,8 +56,10 @@ def mandelbrot(size)
   sum
 end
 
+ary = []
+
 100.times {
-  mandelbrot(25)
+  ary << mandelbrot(25)
 }
 
 ary = []
